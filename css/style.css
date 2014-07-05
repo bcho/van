@@ -1,0 +1,97 @@
+.terminal-page {
+  display: flex;
+
+  background-color: #1ab05c;
+}
+
+.terminal-wrapper {
+  width: 85%;
+  margin: 30px auto 0;
+
+  border-radius: 2px;
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, 0.32);
+}
+
+.terminal-title-bar {
+  margin: 0;
+  padding: 2px 0;
+
+  line-height: 1;
+  background-color: #d6d6d6;
+  border-radius: 2px 2px 0 0;
+}
+
+.terminal-title-bar .title-bar-icon {
+  display: inline-block;
+  
+  list-style: none;
+  
+  /* Make a dot. */
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.terminal-title-bar .title-bar-icon:first-child {
+  margin-left: 7px;
+}
+
+.title-bar-close { background-color: #c0392b; }
+.title-bar-minimize { background-color: #f1c40f; }
+.title-bar-maximize { background-color: #16a085; }
+
+.terminal-body {
+  background-color: #2a3c50;
+  border-radius: 0 0 2px 2px;
+}
+
+.editor-wrapper {
+  position: relative;
+  padding: 1px 10px;
+
+  font-family: Monaco;
+}
+
+.editor-status-bar {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  bottom: 5px;
+}
+
+.editor-command-prompt,
+.editor-infos {
+  display: inline-block;
+  
+  color: #ecf0f1;
+}
+
+.editor-command-prompt {
+  width: 75%;
+  margin-left: 10px;
+
+  text-align: left;
+}
+
+.editor-infos {
+  text-align: right;
+}
+
+.editor-content {
+  width: 85%;
+  margin-bottom: 25px;
+
+  color: #3d98db;
+}
+
+.editor-line {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.editor-cursor { background: #ecf0f1; }
+
+.editor-text-normal { color: #ecf0f1; }
+.editor-text-highlight1 { color: #e67e22; }
+.editor-blank-line { color: #3d98db; }

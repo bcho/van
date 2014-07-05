@@ -1,0 +1,24 @@
+{
+  "name": "van",
+  "version": "0.0.1",
+  "description": "A simple blog pages template.",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "vim",
+    "template"
+  ],
+  "authors": [
+    "hbc <bcxxxxxx@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
